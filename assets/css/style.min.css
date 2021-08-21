@@ -157,6 +157,9 @@ body, html {
             background-color: #232830; }
   body main, html main {
     margin-top: 100px; }
+    @media screen and (max-width: 992px) {
+      body main, html main {
+        margin-top: 150px; } }
     body main .container, html main .container {
       max-width: 1240px;
       margin: 0 auto;
