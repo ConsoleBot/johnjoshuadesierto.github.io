@@ -1,0 +1,287 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #E0E4ED; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #232830; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5C5F60; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  cursor: pointer;
+  text-decoration: none; }
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif; }
+  body nav, html nav {
+    min-height: 115px;
+    padding: 0 50px; }
+    body nav .nav-container, html nav .nav-container {
+      height: 100%;
+      min-height: 115px;
+      max-width: 1240px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      position: relative; }
+      @media screen and (max-width: 992px) {
+        body nav .nav-container, html nav .nav-container {
+          display: block; } }
+      body nav .nav-container .nav-logo-trigger-container, html nav .nav-container .nav-logo-trigger-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        height: 115px; }
+        @media screen and (max-width: 992px) {
+          body nav .nav-container .nav-logo-trigger-container, html nav .nav-container .nav-logo-trigger-container {
+            width: 100%; } }
+        body nav .nav-container .nav-logo-trigger-container .logo, html nav .nav-container .nav-logo-trigger-container .logo {
+          height: 100%;
+          display: block;
+          width: 50px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url("/assets/images/logo.png"); }
+        body nav .nav-container .nav-logo-trigger-container .nav-trigger, html nav .nav-container .nav-logo-trigger-container .nav-trigger {
+          height: 30px;
+          width: 27px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          @media screen and (min-width: 993px) {
+            body nav .nav-container .nav-logo-trigger-container .nav-trigger, html nav .nav-container .nav-logo-trigger-container .nav-trigger {
+              display: none; } }
+          body nav .nav-container .nav-logo-trigger-container .nav-trigger i, html nav .nav-container .nav-logo-trigger-container .nav-trigger i {
+            color: #5C5F60;
+            font-size: 20px; }
+        body nav .nav-container .nav-logo-trigger-container .nav-trigger:hover i, html nav .nav-container .nav-logo-trigger-container .nav-trigger:hover i {
+          color: #232830; }
+      body nav .nav-container .nav-right-container, html nav .nav-container .nav-right-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transition: height .4s ease-in-out,  opacity .2s ease-in-out;
+        transition: height .4s ease-in-out,  opacity .2s ease-in-out; }
+        @media screen and (max-width: 992px) {
+          body nav .nav-container .nav-right-container, html nav .nav-container .nav-right-container {
+            display: none;
+            width: 100%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            height: 0;
+            opacity: 0; } }
+        body nav .nav-container .nav-right-container ul li a, html nav .nav-container .nav-right-container ul li a {
+          font-size: 18px;
+          font-weight: 500;
+          color: #5C5F60; }
+        body nav .nav-container .nav-right-container ul li a:hover, html nav .nav-container .nav-right-container ul li a:hover {
+          color: #232830; }
+        body nav .nav-container .nav-right-container .btn-container, html nav .nav-container .nav-right-container .btn-container {
+          margin-left: 20px; }
+          @media screen and (max-width: 992px) {
+            body nav .nav-container .nav-right-container .btn-container, html nav .nav-container .nav-right-container .btn-container {
+              margin-left: 0; } }
+          body nav .nav-container .nav-right-container .btn-container .say-hi-btn, html nav .nav-container .nav-right-container .btn-container .say-hi-btn {
+            font-size: 18px;
+            font-weight: 700;
+            color: #232830;
+            border: 2px solid #232830;
+            border-radius: 50px;
+            padding: 10px 20px;
+            -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+            transition: background-color .3s ease-in-out, color .3s ease-in-out; }
+          body nav .nav-container .nav-right-container .btn-container .say-hi-btn:hover, html nav .nav-container .nav-right-container .btn-container .say-hi-btn:hover {
+            color: #FFFFFF;
+            background-color: #232830; }
+  body main, html main {
+    margin-top: 100px; }
+    body main .container, html main .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 50px; }
+      body main .container .header, html main .container .header {
+        font-size: 46px;
+        color: #232830;
+        font-weight: 900;
+        text-align: center; }
+      body main .container .subheader, html main .container .subheader {
+        font-size: 24px;
+        color: #232830;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 75px; }
+      body main .container .profile-photo-container, html main .container .profile-photo-container {
+        width: 230px;
+        height: 230px;
+        background-color: #5C5F60;
+        margin: 0 auto;
+        border-radius: 50%;
+        position: relative;
+        margin-bottom: 75px; }
+        body main .container .profile-photo-container .profile-photo, html main .container .profile-photo-container .profile-photo {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 230px;
+          height: 250px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-image: url("/assets/images/profile.png"); }
+      body main .container .coding-photo, html main .container .coding-photo {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 275px;
+        width: 100%;
+        margin-bottom: -2px;
+        background-image: url("/assets/images/coding.svg"); }
+      body main .container .categories-container, html main .container .categories-container {
+        border-radius: 12px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        margin-top: -100px;
+        margin-bottom: 135px; }
+        body main .container .categories-container .category-container, html main .container .categories-container .category-container {
+          padding: 50px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          text-align: center;
+          border: 1px solid #E0E4ED;
+          border-radius: 12px;
+          background-color: #FFFFFF; }
+          @media screen and (max-width: 600px) {
+            body main .container .categories-container .category-container, html main .container .categories-container .category-container {
+              padding: 35px; } }
+          body main .container .categories-container .category-container i, html main .container .categories-container .category-container i {
+            color: #5C5F60;
+            font-size: 48px;
+            margin-bottom: 20px; }
+          body main .container .categories-container .category-container .category-header, html main .container .categories-container .category-container .category-header {
+            color: #5C5F60;
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 20px; }
+          body main .container .categories-container .category-container .category-description, html main .container .categories-container .category-container .category-description {
+            color: #5C5F60;
+            font-size: 18px;
+            width: 400px;
+            margin-bottom: 70px;
+            line-height: 30px; }
+            @media screen and (max-width: 600px) {
+              body main .container .categories-container .category-container .category-description, html main .container .categories-container .category-container .category-description {
+                width: 200px; } }
+          body main .container .categories-container .category-container .category-label-header, html main .container .categories-container .category-container .category-label-header {
+            font-weight: 600;
+            color: #5C5F60;
+            margin-bottom: 20px; }
+          body main .container .categories-container .category-container .category-assign-header, html main .container .categories-container .category-container .category-assign-header {
+            color: #5C5F60;
+            margin-bottom: 70px; }
+          body main .container .categories-container .category-container .category-assign-header:last-child, html main .container .categories-container .category-container .category-assign-header:last-child {
+            margin-bottom: 0; }
+      body main .container .projects-container .projects-header, html main .container .projects-container .projects-header {
+        font-size: 32px;
+        color: #232830;
+        font-weight: 900;
+        text-align: center; }
+    body main .introduction-container, html main .introduction-container {
+      padding: 0 50px;
+      min-height: 500px;
+      background-color: #232830; }
+      body main .introduction-container .intro-container, html main .introduction-container .intro-container {
+        padding: 100px 0 100px 0;
+        text-align: center;
+        max-width: 850px;
+        margin: 0 auto; }
+        body main .introduction-container .intro-container .intro-header, html main .introduction-container .intro-container .intro-header {
+          font-size: 32px;
+          font-weight: 400;
+          color: #FFFFFF;
+          margin-bottom: 20px; }
+        body main .introduction-container .intro-container .intro-subheader, html main .introduction-container .intro-container .intro-subheader {
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 400;
+          color: #FFFFFF;
+          margin-bottom: 70px; }
