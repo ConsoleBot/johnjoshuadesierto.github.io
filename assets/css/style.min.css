@@ -86,7 +86,7 @@ body, html {
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
-          background-image: url("/images/logo.png"); }
+          background-image: url("./images/logo.png"); }
         body nav .nav-container .nav-logo-trigger-container .nav-trigger, html nav .nav-container .nav-logo-trigger-container .nav-trigger {
           height: 30px;
           width: 27px;
@@ -189,7 +189,7 @@ body, html {
           position: absolute;
           bottom: 0;
           left: 0;
-          background-image: url("/images/profile.png"); }
+          background-image: url("./images/profile.png"); }
       body main .container .coding-photo, html main .container .coding-photo {
         background-position: center;
         background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body, html {
         height: 275px;
         width: 100%;
         margin-bottom: -2px;
-        background-image: url("/images/coding.svg"); }
+        background-image: url("./images/coding.svg"); }
       body main .container .categories-container, html main .container .categories-container {
         border-radius: 12px;
         display: -webkit-box;
