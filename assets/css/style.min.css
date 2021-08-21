@@ -189,7 +189,7 @@ body, html {
           position: absolute;
           bottom: 0;
           left: 0;
-          background-image: url("..johnjoshuadesierto.github.io/assets/images/profile.png"); }
+          background-image: url("johnjoshuadesierto.github.io/assets/images/profile.png"); }
       body main .container .coding-photo, html main .container .coding-photo {
         background-position: center;
         background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body, html {
         height: 275px;
         width: 100%;
         margin-bottom: -2px;
-        background-image: url("..johnjoshuadesierto.github.io/assets/images/coding.svg"); }
+        background-image: url("johnjoshuadesierto.github.io/assets/images/coding.svg"); }
       body main .container .categories-container, html main .container .categories-container {
         border-radius: 12px;
         display: -webkit-box;
