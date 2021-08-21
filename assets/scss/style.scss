@@ -185,6 +185,23 @@ body, html {
       margin: 0 auto;
       padding: 0 50px;
 
+      .not-found-container {
+        .not-found-header {
+          font-size: 46px;
+          color: #232830;
+          font-weight: 900;
+          text-align: center;
+        }
+    
+        .not-found-subheader {
+          font-size: 24px;
+          color: #232830;
+          font-weight: 400;
+          text-align: center;
+          margin-bottom: 75px;
+        }
+      }
+
       .header {
         font-size: 46px;
         color: #232830;
@@ -297,7 +314,6 @@ body, html {
         }
 
       }
-
 
       .projects-container {
         .projects-header {
