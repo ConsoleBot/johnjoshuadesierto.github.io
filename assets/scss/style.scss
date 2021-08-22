@@ -467,9 +467,7 @@ body, html {
   
               .btn-container {
                 .visit-site-btn {
-                  display: flex;
-                  align-items: center;
-                  justify-content: space-between;
+                  display: block;
                   padding: 10px 20px;
                   font-size: 18px;
                   font-weight: 600;

@@ -412,15 +412,7 @@ body, html {
               margin-bottom: 20px;
               text-align: center; }
             body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn {
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-box-align: center;
-                  -ms-flex-align: center;
-                      align-items: center;
-              -webkit-box-pack: justify;
-                  -ms-flex-pack: justify;
-                      justify-content: space-between;
+              display: block;
               padding: 10px 20px;
               font-size: 18px;
               font-weight: 600;
