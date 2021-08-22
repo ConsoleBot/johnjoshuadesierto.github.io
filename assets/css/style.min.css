@@ -8,11 +8,11 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #232830; }
+  background: #BF654E; }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5C5F60; }
+  background: #914E3C; }
 
 body {
   display: -webkit-box;
@@ -146,15 +146,15 @@ body, html {
           body nav .nav-container .nav-right-container .btn-container .say-hi-btn, html nav .nav-container .nav-right-container .btn-container .say-hi-btn {
             font-size: 18px;
             font-weight: 700;
-            color: #232830;
-            border: 2px solid #232830;
+            color: #BF654E;
+            border: 2px solid #BF654E;
             border-radius: 50px;
             padding: 10px 20px;
             -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
             transition: background-color .3s ease-in-out, color .3s ease-in-out; }
           body nav .nav-container .nav-right-container .btn-container .say-hi-btn:hover, html nav .nav-container .nav-right-container .btn-container .say-hi-btn:hover {
             color: #FFFFFF;
-            background-color: #232830; }
+            background-color: #BF654E; }
   body main, html main {
     margin-top: 100px; }
     @media screen and (max-width: 992px) {
@@ -248,7 +248,7 @@ body, html {
             body main .container .categories-container .category-container, html main .container .categories-container .category-container {
               padding: 35px; } }
           body main .container .categories-container .category-container i, html main .container .categories-container .category-container i {
-            color: #5C5F60;
+            color: #BF654E;
             font-size: 48px;
             margin-bottom: 20px; }
           body main .container .categories-container .category-container .category-header, html main .container .categories-container .category-container .category-header {
@@ -267,7 +267,7 @@ body, html {
                 width: 200px; } }
           body main .container .categories-container .category-container .category-label-header, html main .container .categories-container .category-container .category-label-header {
             font-weight: 600;
-            color: #5C5F60;
+            color: #BF654E;
             margin-bottom: 20px; }
           body main .container .categories-container .category-container .category-assign-header, html main .container .categories-container .category-container .category-assign-header {
             color: #5C5F60;
@@ -282,7 +282,7 @@ body, html {
     body main .introduction-container, html main .introduction-container {
       padding: 0 50px;
       min-height: 500px;
-      background-color: #232830; }
+      background-color: #BF654E; }
       body main .introduction-container .intro-container, html main .introduction-container .intro-container {
         padding: 100px 0 100px 0;
         text-align: center;

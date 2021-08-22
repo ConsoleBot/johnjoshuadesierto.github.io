@@ -2,6 +2,7 @@ $colors: (
   // 232830
   // 5C5F60
   // 9B9B9B
+  // BF654E
   // E0E4ED
   // FFFFFF
   // 000000
@@ -19,12 +20,12 @@ $colors: (
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #232830;
+  background: #BF654E;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5C5F60;
+  background: #914E3C;
 }
 
 body {
@@ -157,8 +158,8 @@ body, html {
           .say-hi-btn {
             font-size: 18px;
             font-weight: 700;
-            color: #232830;
-            border: 2px solid #232830;
+            color: #BF654E;
+            border: 2px solid #BF654E;
             border-radius: 50px;
             padding: 10px 20px;
             transition: background-color .3s ease-in-out, color .3s ease-in-out;
@@ -166,7 +167,7 @@ body, html {
 
           .say-hi-btn:hover {
             color: #FFFFFF;
-            background-color: #232830;
+            background-color: #BF654E;
           }
         }
       }
@@ -273,7 +274,7 @@ body, html {
           }
 
           i {
-            color: #5C5F60;
+            color: #BF654E;
             font-size: 48px;
             margin-bottom: 20px;
           }
@@ -299,7 +300,7 @@ body, html {
 
           .category-label-header {
             font-weight: 600;
-            color: #5C5F60;
+            color: #BF654E;
             margin-bottom: 20px;
           }
 
@@ -328,7 +329,7 @@ body, html {
     .introduction-container {
       padding: 0 50px;
       min-height: 500px;
-      background-color: #232830;
+      background-color: #BF654E;
 
       .intro-container {
         padding: 100px 0 100px 0;
