@@ -313,6 +313,7 @@ body, html {
           border: 1px solid #E0E4ED;
           border-radius: 12px;
           background-color: #FFFFFF;
+          box-shadow: 0 2px 2px 0 #f9fbfb80, 0 0 4px 0px #e6ecf8;
 
           @media screen and (max-width: 600px) {
             padding: 35px;

@@ -282,7 +282,9 @@ body, html {
           text-align: center;
           border: 1px solid #E0E4ED;
           border-radius: 12px;
-          background-color: #FFFFFF; }
+          background-color: #FFFFFF;
+          -webkit-box-shadow: 0 2px 2px 0 #f9fbfb80, 0 0 4px 0px #e6ecf8;
+                  box-shadow: 0 2px 2px 0 #f9fbfb80, 0 0 4px 0px #e6ecf8; }
           @media screen and (max-width: 600px) {
             body main .container .categories-container .category-container, html main .container .categories-container .category-container {
               padding: 35px; } }
