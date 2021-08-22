@@ -410,6 +410,7 @@ body, html {
               background-position: center;
               background-repeat: no-repeat;
               background-size: 130%;
+              pointer-events: none;
               opacity: 1;
               border-radius: 9px;
               transition: opacity .5s ease-in-out;
@@ -435,6 +436,7 @@ body, html {
               transition: opacity .5s ease-in-out;
               opacity: 1;
               position: absolute;
+              pointer-events: none;
               top: 0;
               left: 0;
               right: 0;
@@ -449,6 +451,7 @@ body, html {
               flex-direction: column;
               justify-content: center;
               height: 200px;
+              pointer-events: none;
 
               @media screen and (max-width: 800px) {
                 padding: 25px 20px;
@@ -471,6 +474,7 @@ body, html {
                   font-size: 18px;
                   font-weight: 600;
                   border-radius: 50px;
+                  pointer-events: none;
 
                   i {
                     font-size: 20px;
@@ -484,16 +488,21 @@ body, html {
           .project-container:hover {
             .project-background {
               opacity: 0;
-              pointer-events: none;
             }
 
             .project-photo {
               opacity: 0;
-              pointer-events: none;
             }
 
             .project-content {
               opacity: 1;
+              pointer-events: all;
+
+              .btn-container {
+                .visit-site-btn {
+                  pointer-events: all;
+                }
+              }
             }
           }
         }

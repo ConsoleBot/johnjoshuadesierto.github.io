@@ -355,6 +355,7 @@ body, html {
             background-position: center;
             background-repeat: no-repeat;
             background-size: 130%;
+            pointer-events: none;
             opacity: 1;
             border-radius: 9px;
             -webkit-transition: opacity .5s ease-in-out;
@@ -379,6 +380,7 @@ body, html {
             transition: opacity .5s ease-in-out;
             opacity: 1;
             position: absolute;
+            pointer-events: none;
             top: 0;
             left: 0;
             right: 0;
@@ -398,7 +400,8 @@ body, html {
             -webkit-box-pack: center;
                 -ms-flex-pack: center;
                     justify-content: center;
-            height: 200px; }
+            height: 200px;
+            pointer-events: none; }
             @media screen and (max-width: 800px) {
               body main .container .projects-container .projects-containers .project-container .project-content, html main .container .projects-container .projects-containers .project-container .project-content {
                 padding: 25px 20px; } }
@@ -421,18 +424,20 @@ body, html {
               padding: 10px 20px;
               font-size: 18px;
               font-weight: 600;
-              border-radius: 50px; }
+              border-radius: 50px;
+              pointer-events: none; }
               body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i {
                 font-size: 20px;
                 margin-left: 5px; }
         body main .container .projects-container .projects-containers .project-container:hover .project-background, html main .container .projects-container .projects-containers .project-container:hover .project-background {
-          opacity: 0;
-          pointer-events: none; }
+          opacity: 0; }
         body main .container .projects-container .projects-containers .project-container:hover .project-photo, html main .container .projects-container .projects-containers .project-container:hover .project-photo {
-          opacity: 0;
-          pointer-events: none; }
+          opacity: 0; }
         body main .container .projects-container .projects-containers .project-container:hover .project-content, html main .container .projects-container .projects-containers .project-container:hover .project-content {
-          opacity: 1; }
+          opacity: 1;
+          pointer-events: all; }
+          body main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container .visit-site-btn, html main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container .visit-site-btn {
+            pointer-events: all; }
     body main .introduction-container, html main .introduction-container {
       padding: 0 50px;
       min-height: 600px;
