@@ -476,6 +476,7 @@ body, html {
                   font-weight: 600;
                   border-radius: 50px;
                   pointer-events: none;
+                  visibility: visible;
 
                   i {
                     font-size: 20px;
@@ -497,13 +498,12 @@ body, html {
 
             .project-content {
               opacity: 1;
-              // pointer-events: all;
 
               .btn-container {
-                // pointer-events: all;
 
                 .visit-site-btn {
-                  // pointer-events: all;
+                  pointer-events: all;
+                  animation: delay-pointer-events 100ms linear;
                 }
               }
             }
@@ -544,5 +544,17 @@ body, html {
         }
       }
     }
+  }
+}
+
+@keyframes delay-pointer-events {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
   }
 }
