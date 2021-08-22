@@ -36,7 +36,46 @@ a {
 .btn-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.btn-solid-1 {
+  border: 3px solid #BF654E;
+  background-color: #232830;
+  color: #BF654E;
+  -webkit-transition: background-color .4s ease-in-out, color .4s ease-in-out;
+  transition: background-color .4s ease-in-out, color .4s ease-in-out; }
+
+.btn-solid-1:hover {
+  border: 3px solid #232830;
+  background-color: #BF654E;
+  color: #232830; }
+
+.btn-regular-1 {
+  border: 2px solid;
+  background-color: unset; }
+
+.waves-effect {
+  position: relative;
+  overflow: hidden;
+  display: inline-block; }
+
+.waves-ripple {
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-radius: 50%;
+  /*   background-color: rgba(255, 255, 255, 0.25); */
+  -webkit-transform: translate(-50%, 0); }
 
 body, html {
   margin: 0;
@@ -223,7 +262,7 @@ body, html {
         -webkit-box-pack: space-evenly;
             -ms-flex-pack: space-evenly;
                 justify-content: space-evenly;
-        margin-top: -100px;
+        margin-top: -200px;
         margin-bottom: 135px; }
         body main .container .categories-container .category-container, html main .container .categories-container .category-container {
           padding: 50px;
@@ -279,9 +318,104 @@ body, html {
         color: #232830;
         font-weight: 900;
         text-align: center; }
+      body main .container .projects-container .projects-subheader, html main .container .projects-container .projects-subheader {
+        font-size: 18px;
+        color: #232830;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 75px; }
+      body main .container .projects-container .projects-containers, html main .container .projects-container .projects-containers {
+        padding: 50px 0;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(315px, 1fr))[auto-fit];
+            grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+        grid-gap: 20px; }
+        body main .container .projects-container .projects-containers .project-container, html main .container .projects-container .projects-containers .project-container {
+          background-color: #232830;
+          height: 280px;
+          border-radius: 9px;
+          position: relative;
+          overflow: hidden; }
+          body main .container .projects-container .projects-containers .project-container .project-background, html main .container .projects-container .projects-containers .project-container .project-background {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 104%;
+            opacity: 1;
+            border-radius: 9px;
+            -webkit-transition: opacity .5s ease-in-out;
+            transition: opacity .5s ease-in-out;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0; }
+          body main .container .projects-container .projects-containers .project-container .project-photo, html main .container .projects-container .projects-containers .project-container .project-photo {
+            width: 50%;
+            height: 45%;
+            border-radius: 9px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: auto;
+            -webkit-transition: opacity .5s ease-in-out;
+            transition: opacity .5s ease-in-out;
+            opacity: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0; }
+          body main .container .projects-container .projects-containers .project-container .project-content, html main .container .projects-container .projects-containers .project-container .project-content {
+            padding: 30px 40px;
+            opacity: 0;
+            -webkit-transition: opacity .5s ease-in-out;
+            transition: opacity .5s ease-in-out;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            height: 200px; }
+            body main .container .projects-container .projects-containers .project-container .project-content .project-header, html main .container .projects-container .projects-containers .project-container .project-content .project-header {
+              font-size: 20px;
+              font-weight: 400;
+              color: #FFFFFF;
+              margin-bottom: 20px;
+              text-align: center; }
+            body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -webkit-box-pack: justify;
+                  -ms-flex-pack: justify;
+                      justify-content: space-between;
+              padding: 10px 20px;
+              font-size: 18px;
+              font-weight: 600;
+              border-radius: 50px; }
+              body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i {
+                font-size: 20px;
+                margin-left: 5px; }
+        body main .container .projects-container .projects-containers .project-container:hover .project-background, html main .container .projects-container .projects-containers .project-container:hover .project-background {
+          opacity: 0;
+          pointer-events: none; }
+        body main .container .projects-container .projects-containers .project-container:hover .project-photo, html main .container .projects-container .projects-containers .project-container:hover .project-photo {
+          opacity: 0;
+          pointer-events: none; }
+        body main .container .projects-container .projects-containers .project-container:hover .project-content, html main .container .projects-container .projects-containers .project-container:hover .project-content {
+          opacity: 1; }
     body main .introduction-container, html main .introduction-container {
       padding: 0 50px;
-      min-height: 500px;
+      min-height: 600px;
       background-color: #BF654E; }
       body main .introduction-container .intro-container, html main .introduction-container .intro-container {
         padding: 100px 0 100px 0;
