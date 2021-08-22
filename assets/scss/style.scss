@@ -463,9 +463,12 @@ body, html {
                 color: #FFFFFF;
                 margin-bottom: 20px;
                 text-align: center;
+                pointer-events: none;
               }
   
               .btn-container {
+                pointer-events: none;
+
                 .visit-site-btn {
                   display: block;
                   padding: 10px 20px;
@@ -497,6 +500,8 @@ body, html {
               pointer-events: all;
 
               .btn-container {
+                pointer-events: all;
+                
                 .visit-site-btn {
                   pointer-events: all;
                 }

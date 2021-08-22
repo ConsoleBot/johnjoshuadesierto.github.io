@@ -410,17 +410,20 @@ body, html {
               font-weight: 400;
               color: #FFFFFF;
               margin-bottom: 20px;
-              text-align: center; }
-            body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn {
-              display: block;
-              padding: 10px 20px;
-              font-size: 18px;
-              font-weight: 600;
-              border-radius: 50px;
+              text-align: center;
               pointer-events: none; }
-              body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i {
-                font-size: 20px;
-                margin-left: 5px; }
+            body main .container .projects-container .projects-containers .project-container .project-content .btn-container, html main .container .projects-container .projects-containers .project-container .project-content .btn-container {
+              pointer-events: none; }
+              body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn {
+                display: block;
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 50px;
+                pointer-events: none; }
+                body main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i, html main .container .projects-container .projects-containers .project-container .project-content .btn-container .visit-site-btn i {
+                  font-size: 20px;
+                  margin-left: 5px; }
         body main .container .projects-container .projects-containers .project-container:hover .project-background, html main .container .projects-container .projects-containers .project-container:hover .project-background {
           opacity: 0; }
         body main .container .projects-container .projects-containers .project-container:hover .project-photo, html main .container .projects-container .projects-containers .project-container:hover .project-photo {
@@ -428,8 +431,10 @@ body, html {
         body main .container .projects-container .projects-containers .project-container:hover .project-content, html main .container .projects-container .projects-containers .project-container:hover .project-content {
           opacity: 1;
           pointer-events: all; }
-          body main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container .visit-site-btn, html main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container .visit-site-btn {
+          body main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container, html main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container {
             pointer-events: all; }
+            body main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container .visit-site-btn, html main .container .projects-container .projects-containers .project-container:hover .project-content .btn-container .visit-site-btn {
+              pointer-events: all; }
     body main .introduction-container, html main .introduction-container {
       padding: 0 50px;
       min-height: 600px;
