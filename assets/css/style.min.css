@@ -86,6 +86,9 @@ body, html {
   body nav, html nav {
     min-height: 115px;
     padding: 0 50px; }
+    @media screen and (max-width: 600px) {
+      body nav, html nav {
+        padding: 0 20px; } }
     body nav .nav-container, html nav .nav-container {
       height: 100%;
       min-height: 115px;
@@ -203,6 +206,9 @@ body, html {
       max-width: 1240px;
       margin: 0 auto;
       padding: 0 50px; }
+      @media screen and (max-width: 600px) {
+        body main .container, html main .container {
+          padding: 0 20px; } }
       body main .container .not-found-container .not-found-header, html main .container .not-found-container .not-found-header {
         font-size: 46px;
         color: #232830;
@@ -280,11 +286,10 @@ body, html {
               -ms-flex-direction: column;
                   flex-direction: column;
           text-align: center;
-          border: 1px solid #E0E4ED;
           border-radius: 12px;
           background-color: #FFFFFF;
-          -webkit-box-shadow: 0 2px 2px 0 #f9fbfb80, 0 0 4px 0px #e6ecf8;
-                  box-shadow: 0 2px 2px 0 #f9fbfb80, 0 0 4px 0px #e6ecf8; }
+          -webkit-box-shadow: 0 5px 5px 0 #e9f0f380, 0 0 0 1px #e6ecf8;
+                  box-shadow: 0 5px 5px 0 #e9f0f380, 0 0 0 1px #e6ecf8; }
           @media screen and (max-width: 600px) {
             body main .container .categories-container .category-container, html main .container .categories-container .category-container {
               padding: 35px; } }
@@ -315,6 +320,9 @@ body, html {
             margin-bottom: 70px; }
           body main .container .categories-container .category-container .category-assign-header:last-child, html main .container .categories-container .category-container .category-assign-header:last-child {
             margin-bottom: 0; }
+        body main .container .categories-container .category-container:nth-child(even), html main .container .categories-container .category-container:nth-child(even) {
+          border-right: 1px solid #E0E4ED;
+          border-left: 1px solid #E0E4ED; }
       body main .container .projects-container .projects-header, html main .container .projects-container .projects-header {
         font-size: 32px;
         color: #232830;
@@ -325,7 +333,7 @@ body, html {
         color: #232830;
         font-weight: 400;
         text-align: center;
-        margin-bottom: 75px; }
+        margin-bottom: 50px; }
       body main .container .projects-container .projects-containers, html main .container .projects-container .projects-containers {
         padding: 50px 0;
         display: -ms-grid;
@@ -333,6 +341,10 @@ body, html {
         -ms-grid-columns: (minmax(315px, 1fr))[auto-fit];
             grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
         grid-gap: 20px; }
+        @media screen and (max-width: 600px) {
+          body main .container .projects-container .projects-containers, html main .container .projects-container .projects-containers {
+            -ms-grid-columns: (minmax(266px, 1fr))[auto-fit];
+                grid-template-columns: repeat(auto-fit, minmax(266px, 1fr)); } }
         body main .container .projects-container .projects-containers .project-container, html main .container .projects-container .projects-containers .project-container {
           background-color: #232830;
           height: 280px;
@@ -342,7 +354,7 @@ body, html {
           body main .container .projects-container .projects-containers .project-container .project-background, html main .container .projects-container .projects-containers .project-container .project-background {
             background-position: center;
             background-repeat: no-repeat;
-            background-size: 104%;
+            background-size: 130%;
             opacity: 1;
             border-radius: 9px;
             -webkit-transition: opacity .5s ease-in-out;
@@ -352,6 +364,9 @@ body, html {
             left: 0;
             right: 0;
             bottom: 0; }
+            @media screen and (max-width: 600px) {
+              body main .container .projects-container .projects-containers .project-container .project-background, html main .container .projects-container .projects-containers .project-container .project-background {
+                background-size: 150%; } }
           body main .container .projects-container .projects-containers .project-container .project-photo, html main .container .projects-container .projects-containers .project-container .project-photo {
             width: 50%;
             height: 45%;
@@ -369,7 +384,7 @@ body, html {
             right: 0;
             bottom: 0; }
           body main .container .projects-container .projects-containers .project-container .project-content, html main .container .projects-container .projects-containers .project-container .project-content {
-            padding: 30px 40px;
+            padding: 25px 35px;
             opacity: 0;
             -webkit-transition: opacity .5s ease-in-out;
             transition: opacity .5s ease-in-out;
@@ -380,10 +395,13 @@ body, html {
             -webkit-box-direction: normal;
                 -ms-flex-direction: column;
                     flex-direction: column;
-            -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
-                    justify-content: space-between;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             height: 200px; }
+            @media screen and (max-width: 800px) {
+              body main .container .projects-container .projects-containers .project-container .project-content, html main .container .projects-container .projects-containers .project-container .project-content {
+                padding: 25px 20px; } }
             body main .container .projects-container .projects-containers .project-container .project-content .project-header, html main .container .projects-container .projects-containers .project-container .project-content .project-header {
               font-size: 20px;
               font-weight: 400;
@@ -435,3 +453,6 @@ body, html {
           font-weight: 400;
           color: #FFFFFF;
           margin-bottom: 70px; }
+          @media screen and (max-width: 740px) {
+            body main .introduction-container .intro-container .intro-subheader, html main .introduction-container .intro-container .intro-subheader {
+              margin-bottom: 150px; } }
