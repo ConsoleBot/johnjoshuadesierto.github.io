@@ -497,13 +497,13 @@ body, html {
 
             .project-content {
               opacity: 1;
-              pointer-events: all;
+              // pointer-events: all;
 
               .btn-container {
-                pointer-events: all;
-                
+                // pointer-events: all;
+
                 .visit-site-btn {
-                  pointer-events: all;
+                  // pointer-events: all;
                 }
               }
             }
