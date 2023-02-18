@@ -71,18 +71,18 @@ a {
 }
 
 .btn-regular-1 {
-  border: 2px solid  map-get($colors, secondary);
+  border: 2px solid map-get($colors, secondary);
   background-color: unset;
-  color:  map-get($colors, secondary);
+  color: map-get($colors, secondary);
 }
 
-.waves-effect{
+.waves-effect {
   position: relative;
   overflow: hidden;
   display: inline-block;
 }
 
-.waves-ripple{
+.waves-ripple {
   transition: all .3s ease-out;
   width: 0px;
   height: 0px;
@@ -90,13 +90,14 @@ a {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   border-radius: 50%;
-/*   background-color: rgba(255, 255, 255, 0.25); */
-  -webkit-transform: translate(-50%, 0); 
+  /*   background-color: rgba(255, 255, 255, 0.25); */
+  -webkit-transform: translate(-50%, 0);
 }
 
-body, html {
-  margin:0;
-  padding:0;
+body,
+html {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
   font-family: 'Titillium Web', sans-serif;
@@ -129,7 +130,7 @@ body, html {
         align-items: center;
         justify-content: space-between;
         height: 115px;
-       
+
         @media screen and (max-width: 992px) {
           width: 100%;
         }
@@ -143,18 +144,18 @@ body, html {
           background-size: contain;
           background-image: url('../images/logo.webp');
         }
-  
+
         .nav-trigger {
           height: 30px;
           width: 27px;
           display: flex;
           align-items: center;
           justify-content: center;
-          
+
           @media screen and (min-width: 993px) {
-            display: none;  
+            display: none;
           }
-  
+
           i {
             color: #5C5F60;
             font-size: 20px;
@@ -171,10 +172,10 @@ body, html {
       .nav-right-container {
         display: flex;
         align-items: center;
-        transition: height .4s ease-in-out,  opacity .2s ease-in-out;
+        transition: height .4s ease-in-out, opacity .2s ease-in-out;
 
         @media screen and (max-width: 992px) {
-          display: none;  
+          display: none;
           width: 100%;
           flex-direction: column;
           align-items: center;
@@ -196,7 +197,7 @@ body, html {
             }
           }
         }
-  
+
         .btn-container {
           margin-left: 20px;
 
@@ -246,7 +247,7 @@ body, html {
           font-weight: 900;
           text-align: center;
         }
-    
+
         .not-found-subheader {
           font-size: 24px;
           color: #232830;
@@ -262,7 +263,7 @@ body, html {
         font-weight: 900;
         text-align: center;
       }
-  
+
       .subheader {
         font-size: 24px;
         color: #232830;
@@ -270,7 +271,7 @@ body, html {
         text-align: center;
         margin-bottom: 75px;
       }
-  
+
       .profile-photo-container {
         width: 230px;
         height: 230px;
@@ -279,7 +280,7 @@ body, html {
         border-radius: 50%;
         position: relative;
         margin-bottom: 75px;
-  
+
         .profile-photo {
           background-position: center;
           background-repeat: no-repeat;
@@ -292,7 +293,7 @@ body, html {
           background-image: url('../images/profile.webp');
         }
       }
-  
+
       .coding-photo {
         background-position: center;
         background-repeat: no-repeat;
@@ -392,11 +393,11 @@ body, html {
         .projects-containers {
           padding: 50px 0;
           display: grid;
-          grid-template-columns: repeat(auto-fit,minmax(315px,1fr));
+          grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
           grid-gap: 20px;
 
           @media screen and (max-width: 600px) {
-            grid-template-columns: repeat(auto-fit,minmax(266px,1fr));
+            grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
           }
 
           .project-container {
@@ -458,14 +459,14 @@ body, html {
               }
 
               .project-header {
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: 400;
                 color: #FFFFFF;
                 margin-bottom: 20px;
                 text-align: center;
                 pointer-events: none;
               }
-  
+
               .btn-container {
                 pointer-events: none;
 
@@ -522,15 +523,15 @@ body, html {
         text-align: center;
         max-width: 850px;
         margin: 0 auto;
-        
-        
+
+
         .intro-header {
           font-size: 32px;
           font-weight: 400;
           color: #FFFFFF;
           margin-bottom: 20px;
         }
-  
+
         .intro-subheader {
           font-size: 18px;
           line-height: 30px;
@@ -551,9 +552,11 @@ body, html {
   0% {
     visibility: hidden;
   }
+
   50% {
     visibility: hidden;
   }
+
   100% {
     visibility: hidden;
   }
