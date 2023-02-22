@@ -412,7 +412,8 @@ html {
             top: 0;
             left: 0;
             right: 0;
-            bottom: 0; }
+            bottom: 0;
+            border: 1px solid #a9a9a9; }
             @media screen and (max-width: 600px) {
               body main .container .projects-container .projects-containers .project-container .project-background,
               html main .container .projects-container .projects-containers .project-container .project-background {
